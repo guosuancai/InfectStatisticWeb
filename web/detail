@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/mine.css" rel="stylesheet">
+    <title>Document</title>
+    <script src="http://echarts.baidu.com/build/dist/echarts-all.js"></script>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/page_2/data.js"></script>
+    <script type="text/javascript">
+        $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+        $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+        $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+    <script>
+        var qz=new Array();
+        var ys=new Array();
+        var zy=new Array();
+        var sw=new Array();
+        qz["湖北2020-01-19"]=0;
+        qz["湖北2020-01-20"]=0;
+        qz["湖北2020-01-21"]=239;
+        qz["湖北2020-01-22"]=338;
+        qz["湖北2020-01-23"]=399;
+        qz["湖北2020-01-24"]=494;
+        qz["湖北2020-01-25"]=658;
+        qz["湖北2020-01-26"]=958;
+        qz["湖北2020-01-27"]=1303;
+        qz["湖北2020-01-28"]=2570;
+        qz["湖北2020-01-29"]=3385;
+        qz["湖北2020-01-30"]=4370;
+        qz["湖北2020-01-31"]=5522;
+        qz["湖北2020-02-01"]=6774;
+        qz["湖北2020-02-02"]=8601;
+        qz["安徽2020-01-19"]=0;
+        qz["安徽2020-01-20"]=0;
+        qz["安徽2020-01-21"]=0;
+        qz["安徽2020-01-22"]=1;
+        qz["安徽2020-01-23"]=9;
+        qz["安徽2020-01-24"]=15;
+        qz["安徽2020-01-25"]=39;
+        qz["安徽2020-01-26"]=60;
+        qz["安徽2020-01-27"]=70;
+        qz["安徽2020-01-28"]=106;
+        qz["安徽2020-01-29"]=152;
+        qz["安徽2020-01-30"]=198;
+        qz["安徽2020-01-31"]=234;
+        qz["安徽2020-02-01"]=294;
+        qz["安徽2020-02-02"]=335;
+        qz["北京2020-01-19"]=0;
+        qz["北京2020-01-20"]=5;
+        qz["北京2020-01-21"]=10;
+        qz["北京2020-01-22"]=14;
+        qz["北京2020-01-23"]=26;
+        qz["北京2020-01-24"]=35;
+        qz["北京2020-01-25"]=49;
+        qz["北京2020-01-26"]=66;
+        qz["北京2020-01-27"]=77;
+        qz["北京2020-01-28"]=86;
+        qz["北京2020-01-29"]=106;
+        qz["北京2020-01-30"]=126;
+        qz["北京2020-01-31"]=150;
+        qz["北京2020-02-01"]=173;
+        qz["北京2020-02-02"]=181;
+        qz["重庆2020-01-19"]=0;
+        qz["重庆2020-01-20"]=0;
+        qz["重庆2020-01-21"]=5;
+        qz["重庆2020-01-22"]=6;
+        qz["重庆2020-01-23"]=9;
+        qz["重庆2020-01-24"]=27;
+        qz["重庆2020-01-25"]=57;
+        qz["重庆2020-01-26"]=75;
+        qz["重庆2020-01-27"]=110;
+        qz["重庆2020-01-28"]=132;
+        qz["重庆2020-01-29"]=147;
+        qz["重庆2020-01-30"]=164;
+        qz["重庆2020-01-31"]=205;
+        qz["重庆2020-02-01"]=236;
+        qz["重庆2020-02-02"]=258;
+        qz["福建2020-01-19"]=0;
+        qz["福建2020-01-20"]=0;
+        qz["福建2020-01-21"]=0;
+        qz["福建2020-01-22"]=1;
+        qz["福建2020-01-23"]=5;
+        qz["福建2020-01-24"]=10;
+        qz["福建2020-01-25"]=18;
+        qz["福建2020-01-26"]=35;
+        qz["福建2020-01-27"]=59;
+        qz["福建2020-01-28"]=82;
+        qz["福建2020-01-29"]=101;
+        qz["福建2020-01-30"]=120;
+        qz["福建2020-01-31"]=144;
+        qz["福建2020-02-01"]=159;
+        qz["福建2020-02-02"]=179;
+        qz["浙江2020-01-19"]=0;
+        qz["浙江2020-01-20"]=0;
+        qz["浙江2020-01-21"]=0;
+        qz["浙江2020-01-22"]=10;
+        qz["浙江2020-01-23"]=27;
+        qz["浙江2020-01-24"]=43;
+        qz["浙江2020-01-25"]=62;
+        qz["浙江2020-01-26"]=102;
+        qz["浙江2020-01-27"]=128;
+        qz["浙江2020-01-28"]=173;
+        qz["浙江2020-01-29"]=294;
+        qz["浙江2020-01-30"]=425;
+        qz["浙江2020-01-31"]=529;
+        qz["浙江2020-02-01"]=585;
+        qz["浙江2020-02-02"]=639;
+
+        ys["湖北2020-01-19"]=0;
+        ys["湖北2020-01-20"]=0;
+        ys["湖北2020-01-21"]=0;
+        ys["湖北2020-01-22"]=0;
+        ys["湖北2020-01-23"]=0;
+        ys["湖北2020-01-24"]=0;
+        ys["湖北2020-01-25"]=0;
+        ys["湖北2020-01-26"]=0;
+        ys["湖北2020-01-27"]=0;
+        ys["湖北2020-01-28"]=0;
+        ys["湖北2020-01-29"]=0;
+        ys["湖北2020-01-30"]=0;
+        ys["湖北2020-01-31"]=0;
+        ys["湖北2020-02-01"]=0;
+        ys["湖北2020-02-02"]=0;
+        ys["安徽2020-01-19"]=0;
+        ys["安徽2020-01-20"]=0;
+        ys["安徽2020-01-21"]=1;
+        ys["安徽2020-01-22"]=3;
+        ys["安徽2020-01-23"]=3;
+        ys["安徽2020-01-24"]=3;
+        ys["安徽2020-01-25"]=29;
+        ys["安徽2020-01-26"]=44;
+        ys["安徽2020-01-27"]=80;
+        ys["安徽2020-01-28"]=118;
+        ys["安徽2020-01-29"]=160;
+        ys["安徽2020-01-30"]=205;
+        ys["安徽2020-01-31"]=275;
+        ys["安徽2020-02-01"]=352;
+        ys["安徽2020-02-02"]=434;
+        ys["北京2020-01-19"]=0;
+        ys["北京2020-01-20"]=0;
+        ys["北京2020-01-21"]=0;
+        ys["北京2020-01-22"]=0;
+        ys["北京2020-01-23"]=0;
+        ys["北京2020-01-24"]=0;
+        ys["北京2020-01-25"]=0;
+        ys["北京2020-01-26"]=0;
+        ys["北京2020-01-27"]=0;
+        ys["北京2020-01-28"]=0;
+        ys["北京2020-01-29"]=0;
+        ys["北京2020-01-30"]=0;
+        ys["北京2020-01-31"]=0;
+        ys["北京2020-02-01"]=0;
+        ys["北京2020-02-02"]=0;
+        ys["重庆2020-01-19"]=0;
+        ys["重庆2020-01-20"]=0;
+        ys["重庆2020-01-21"]=0;
+        ys["重庆2020-01-22"]=13;
+        ys["重庆2020-01-23"]=13;
+        ys["重庆2020-01-24"]=13;
+        ys["重庆2020-01-25"]=13;
+        ys["重庆2020-01-26"]=13;
+        ys["重庆2020-01-27"]=13;
+        ys["重庆2020-01-28"]=13;
+        ys["重庆2020-01-29"]=13;
+        ys["重庆2020-01-30"]=13;
+        ys["重庆2020-01-31"]=13;
+        ys["重庆2020-02-01"]=13;
+        ys["重庆2020-02-02"]=13;
+        ys["福建2020-01-19"]=0;
+        ys["福建2020-01-20"]=0;
+        ys["福建2020-01-21"]=0;
+        ys["福建2020-01-22"]=0;
+        ys["福建2020-01-23"]=2;
+        ys["福建2020-01-24"]=4;
+        ys["福建2020-01-25"]=4;
+        ys["福建2020-01-26"]=42;
+        ys["福建2020-01-27"]=73;
+        ys["福建2020-01-28"]=155;
+        ys["福建2020-01-29"]=208;
+        ys["福建2020-01-30"]=264;
+        ys["福建2020-01-31"]=316;
+        ys["福建2020-02-01"]=355;
+        ys["福建2020-02-02"]=402;
+        ys["浙江2020-01-19"]=0;
+        ys["浙江2020-01-20"]=0;
+        ys["浙江2020-01-21"]=0;
+        ys["浙江2020-01-22"]=0;
+        ys["浙江2020-01-23"]=0;
+        ys["浙江2020-01-24"]=0;
+        ys["浙江2020-01-25"]=0;
+        ys["浙江2020-01-26"]=0;
+        ys["浙江2020-01-27"]=0;
+        ys["浙江2020-01-28"]=0;
+        ys["浙江2020-01-29"]=0;
+        ys["浙江2020-01-30"]=0;
+        ys["浙江2020-01-31"]=0;
+        ys["浙江2020-02-01"]=0;
+        ys["浙江2020-02-02"]=0;
+        zy["湖北2020-01-19"]=0;
+        zy["湖北2020-01-20"]=0;
+        zy["湖北2020-01-21"]=25;
+        zy["湖北2020-01-22"]=28;
+        zy["湖北2020-01-23"]=28;
+        zy["湖北2020-01-24"]=31;
+        zy["湖北2020-01-25"]=32;
+        zy["湖北2020-01-26"]=42;
+        zy["湖北2020-01-27"]=44;
+        zy["湖北2020-01-28"]=44;
+        zy["湖北2020-01-29"]=44;
+        zy["湖北2020-01-30"]=54;
+        zy["湖北2020-01-31"]=80;
+        zy["湖北2020-02-01"]=130;
+        zy["湖北2020-02-02"]=179;
+        zy["安徽2020-01-19"]=0;
+        zy["安徽2020-01-20"]=0;
+        zy["安徽2020-01-21"]=0;
+        zy["安徽2020-01-22"]=0;
+        zy["安徽2020-01-23"]=0;
+        zy["安徽2020-01-24"]=0;
+        zy["安徽2020-01-25"]=0;
+        zy["安徽2020-01-26"]=0;
+        zy["安徽2020-01-27"]=0;
+        zy["安徽2020-01-28"]=0;
+        zy["安徽2020-01-29"]=0;
+        zy["安徽2020-01-30"]=2;
+        zy["安徽2020-01-31"]=3;
+        zy["安徽2020-02-01"]=3;
+        zy["安徽2020-02-02"]=5;
+        zy["北京2020-01-19"]=0;
+        zy["北京2020-01-20"]=0;
+        zy["北京2020-01-21"]=0;
+        zy["北京2020-01-22"]=0;
+        zy["北京2020-01-23"]=0;
+        zy["北京2020-01-24"]=1;
+        zy["北京2020-01-25"]=2;
+        zy["北京2020-01-26"]=2;
+        zy["北京2020-01-27"]=2;
+        zy["北京2020-01-28"]=4;
+        zy["北京2020-01-29"]=4;
+        zy["北京2020-01-30"]=5;
+        zy["北京2020-01-31"]=5;
+        zy["北京2020-02-01"]=9;
+        zy["北京2020-02-02"]=9;
+        zy["重庆2020-01-19"]=0;
+        zy["重庆2020-01-20"]=0;
+        zy["重庆2020-01-21"]=0;
+        zy["重庆2020-01-22"]=0;
+        zy["重庆2020-01-23"]=0;
+        zy["重庆2020-01-24"]=0;
+        zy["重庆2020-01-25"]=0;
+        zy["重庆2020-01-26"]=0;
+        zy["重庆2020-01-27"]=0;
+        zy["重庆2020-01-28"]=0;
+        zy["重庆2020-01-29"]=0;
+        zy["重庆2020-01-30"]=1;
+        zy["重庆2020-01-31"]=1;
+        zy["重庆2020-02-01"]=1;
+        zy["重庆2020-02-02"]=3;
+        zy["福建2020-01-19"]=0;
+        zy["福建2020-01-20"]=0;
+        zy["福建2020-01-21"]=0;
+        zy["福建2020-01-22"]=0;
+        zy["福建2020-01-23"]=0;
+        zy["福建2020-01-24"]=0;
+        zy["福建2020-01-25"]=0;
+        zy["福建2020-01-26"]=0;
+        zy["福建2020-01-27"]=0;
+        zy["福建2020-01-28"]=0;
+        zy["福建2020-01-29"]=0;
+        zy["福建2020-01-30"]=0;
+        zy["福建2020-01-31"]=0;
+        zy["福建2020-02-01"]=0;
+        zy["福建2020-02-02"]=0;
+        zy["浙江2020-01-19"]=0;
+        zy["浙江2020-01-20"]=0;
+        zy["浙江2020-01-21"]=0;
+        zy["浙江2020-01-22"]=0;
+        zy["浙江2020-01-23"]=0;
+        zy["浙江2020-01-24"]=0;
+        zy["浙江2020-01-25"]=0;
+        zy["浙江2020-01-26"]=0;
+        zy["浙江2020-01-27"]=0;
+        zy["浙江2020-01-28"]=0;
+        zy["浙江2020-01-29"]=0;
+        zy["浙江2020-01-30"]=3;
+        zy["浙江2020-01-31"]=8;
+        zy["浙江2020-02-01"]=14;
+        zy["浙江2020-02-02"]=22;
+
+
+
+
+        sw["湖北2020-01-19"]=0;
+        sw["湖北2020-01-20"]=0;
+        sw["湖北2020-01-21"]=6;
+        sw["湖北2020-01-22"]=9;
+        sw["湖北2020-01-23"]=17;
+        sw["湖北2020-01-24"]=24;
+        sw["湖北2020-01-25"]=39;
+        sw["湖北2020-01-26"]=52;
+        sw["湖北2020-01-27"]=76;
+        sw["湖北2020-01-28"]=100;
+        sw["湖北2020-01-29"]=125;
+        sw["湖北2020-01-30"]=162;
+        sw["湖北2020-01-31"]=204;
+        sw["湖北2020-02-01"]=249;
+        sw["湖北2020-02-02"]=294;
+
+        sw["安徽2020-01-19"]=0;
+        sw["安徽2020-01-20"]=0;
+        sw["安徽2020-01-21"]=0;
+        sw["安徽2020-01-22"]=0;
+        sw["安徽2020-01-23"]=0;
+        sw["安徽2020-01-24"]=0;
+        sw["安徽2020-01-25"]=0;
+        sw["安徽2020-01-26"]=0;
+        sw["安徽2020-01-27"]=0;
+        sw["安徽2020-01-28"]=0;
+        sw["安徽2020-01-29"]=0;
+        sw["安徽2020-01-30"]=0;
+        sw["安徽2020-01-31"]=0;
+        sw["安徽2020-02-01"]=0;
+        sw["安徽2020-02-02"]=0;
+
+        sw["北京2020-01-19"]=0;
+        sw["北京2020-01-20"]=0;
+        sw["北京2020-01-21"]=0;
+        sw["北京2020-01-22"]=0;
+        sw["北京2020-01-23"]=0;
+        sw["北京2020-01-24"]=0;
+        sw["北京2020-01-25"]=0;
+        sw["北京2020-01-26"]=0;
+        sw["北京2020-01-27"]=1;
+        sw["北京2020-01-28"]=1;
+        sw["北京2020-01-29"]=1;
+        sw["北京2020-01-30"]=1;
+        sw["北京2020-01-31"]=1;
+        sw["北京2020-02-01"]=1;
+        sw["北京2020-02-02"]=1;
+
+        sw["重庆2020-01-19"]=0;
+        sw["重庆2020-01-20"]=0;
+        sw["重庆2020-01-21"]=0;
+        sw["重庆2020-01-22"]=0;
+        sw["重庆2020-01-23"]=0;
+        sw["重庆2020-01-24"]=0;
+        sw["重庆2020-01-25"]=0;
+        sw["重庆2020-01-26"]=0;
+        sw["重庆2020-01-27"]=0;
+        sw["重庆2020-01-28"]=0;
+        sw["重庆2020-01-29"]=0;
+        sw["重庆2020-01-30"]=0;
+        sw["重庆2020-01-31"]=0;
+        sw["重庆2020-02-01"]=1;
+        sw["重庆2020-02-02"]=1;
+
+        sw["福建2020-01-19"]=0;
+        sw["福建2020-01-20"]=0;
+        sw["福建2020-01-21"]=0;
+        sw["福建2020-01-22"]=0;
+        sw["福建2020-01-23"]=0;
+        sw["福建2020-01-24"]=0;
+        sw["福建2020-01-25"]=0;
+        sw["福建2020-01-26"]=0;
+        sw["福建2020-01-27"]=0;
+        sw["福建2020-01-28"]=0;
+        sw["福建2020-01-29"]=0;
+        sw["福建2020-01-30"]=0;
+        sw["福建2020-01-31"]=0;
+        sw["福建2020-02-01"]=0;
+        sw["福建2020-02-02"]=0;
+
+        sw["浙江2020-01-19"]=0;
+        sw["浙江2020-01-20"]=0;
+        sw["浙江2020-01-21"]=0;
+        sw["浙江2020-01-22"]=0;
+        sw["浙江2020-01-23"]=0;
+        sw["浙江2020-01-24"]=0;
+        sw["浙江2020-01-25"]=0;
+        sw["浙江2020-01-26"]=0;
+        sw["浙江2020-01-27"]=0;
+        sw["浙江2020-01-28"]=0;
+        sw["浙江2020-01-29"]=0;
+        sw["浙江2020-01-30"]=0;
+        sw["浙江2020-01-31"]=0;
+        sw["浙江2020-02-01"]=0;
+        sw["浙江2020-02-02"]=0;
+        for(var i=19;i>9;i--)
+        {
+            var x="2020-01-";
+            x=x+i;
+            qz[x]=0;
+            ys[x]=0;
+            sw[x]=0;
+            zy[x]=0;
+        }
+        function da() {  
+            var thisURL = document.URL;
+            var  getval =thisURL.split('?')[1];
+            var  showval=getval.split("&");
+            var x2=showval[1].split("=")[1];
+            return x2;
+        }
+        function na(){
+            var thisURL = document.URL;
+            var  getval =thisURL.split('?')[1];
+            var  showval=getval.split("&");
+            var x2=decodeURI(showval[0].split("=")[1]);
+            return x2;
+        }
+        function init(){
+            var date=da();
+            var name=na();
+            var today=getSD();
+            var be=getBSD();
+            document.getElementById("header").innerText=name;
+            document.getElementById("header2").innerText="更新至"+date;
+            document.getElementById("inf").innerText=(qz[today]-sw[today]-zy[today]).toString();
+            document.getElementById("infect").innerText=qz[today];
+            document.getElementById("cure").innerText=zy[today];
+            document.getElementById("dead").innerText=sw[today];
+            document.getElementById("q").innerText+="+".concat(((qz[today]-sw[today]-zy[today])-(qz[be]-sw[be]-zy[be])).toString());
+            document.getElementById("l").innerText+="+"+(qz[today]-qz[be]).toString();
+            document.getElementById("c").innerText+="+"+(zy[today]-zy[be]).toString();
+            document.getElementById("d").innerText+="+"+(sw[today]-sw[be]).toString();
+        }
+        function getMonth(day) {
+            var x=day.substr(0,day.lastIndexOf('-'));
+            x=x.substr(x.indexOf('-')+1,x.length);
+            return x;
+        }
+        function getSD(){
+            var x1=da();
+            var x2=na();
+            var x3=x2.concat(x1);
+            return x3;
+        }
+        function getBSD() {
+            var x1=da();
+            var x2=x1.substr(x1.length-2,2);
+            var x3=x2-1;
+            var x4;
+            if(x3<10&&x3>=1) {
+                x3 = "0".concat(x3.toString());
+                x4=x1.substr(0,x1.length-2).concat(x3);
+            }
+            else if(x3<=0){
+                x3=(x3+31)%32;
+                var m=getMonth(x1);
+                m=m-1;
+                m=m.toString();
+                m = "0".concat(m.toString());
+                x4=x1.substr(0,x1.index('-')+1)+m+"-"+x3;
+            }
+            else if(x3>=10){
+                x3=x3.toString();
+                x4=x1.substr(0,x1.length-2).concat(x3);
+            }
+            x4=na().concat(x4);
+            return x4;
+        }
+        function getFD(day){
+            var x1=day;
+            var x2=x1.substr(x1.length-2,2);
+            var x3=x2-1;
+            var x4;
+            if(x3<10&&x3>=1) {
+                x3 = "0".concat(x3.toString());
+                x4=x1.substr(0,x1.length-2).concat(x3);
+            }
+            else if(x3<=0){
+                x3=(x3+31)%32;
+                var m=getMonth(x1);
+                m=m-1;
+                m = "0".concat(m.toString());
+                x4=x1.substr(0,4)+"-"+m+"-"+x3;
+            }
+            else if(x3>10){
+                x3=x3.toString();
+                x4=x1.substr(0,x1.length-2)+x3;
+            }
+            return x4;
+        }
+    </script>
+</head>
+<body onload="init()" background="1583668969852.jpg" style="margin-left: 500px">
+<div id="whole">
+    <div style="float: none;background: bisque">
+        <h3 id="header" style="padding-left: 30px;padding-top: 20px;padding-bottom: 20px"></h3>
+        <p id="header2" style="padding-left: 30px;padding-top: 20px;padding-bottom: 20px"></p>
+    </div>
+    <div id="box1">
+        <div class="box"><p class="p">现有确诊</p><p id="inf" style="color: coral; font-weight: bolder; font-size:2em;"></p><p class="p1">较昨日<span id="q"></span></p></div>
+        <div class="box"><p class="p">累计确诊</p><p id="infect" style="color: red; font-weight: bolder; font-size:2em;"></p><p class="p1">较昨日<span id="l"></span></p></div>
+        <div class="box"><p class="p">累计治愈</p><p id="cure"style="color: green;font-weight: bolder; font-size:2em;"></p><p class="p1">较昨日<span id="c"></span></p></div>
+        <div class="box"><p class="p">累计死亡</p><p id="dead"style="color: gray; font-weight: bolder; font-size:2em;"></p><p class="p1" >较昨日<span id="d"></span></p></div>
+    </div>
+    <div id="image" >
+        <div id="table">
+            <div id="img">
+
+            </div>
+        </div>
+        <div class="button">
+            <div class="but"><button class="butt" onclick="getAdd()">新增<br></br>确诊趋势</button></div>
+            <div class="but"><button class="butt" onclick="getAcc()">累计<br></br>确诊趋势</button></div>
+            <div class="but"><button class="butt" onclick="getDc()">新增<br></br>治愈/死亡</button></div>
+        </div>
+    </div>
+</div>
+    <script>
+        //初始化ehcharts实例
+        var myChart=echarts.init(document.getElementById("img"));
+        var x=new Array();
+        x[9]=da();
+        for(var i=8;i>=0;i--){
+            x[i]=getFD(x[i+1]);
+        }
+        //指定图表的配置项和数据
+        var option={
+            //标题
+            title:{
+                text:na()+'新增确诊趋势'
+            },
+            //工具箱
+            //保存图片
+            toolbox:{
+                show:true,
+                feature:{
+                    saveAsImage:{
+                        show:true
+                    }
+                }
+            },
+            legend:{
+                data:['确诊患者']
+            },
+            //x轴
+            xAxis:{
+                data:[x[0],x[1],x[2],x[3],x[4],x[5],x[6],x[7],x[8],x[9]]
+            },
+            //y轴没有显式设置，根据值自动生成y轴
+            yAxis:{},
+            //数据-data是最终要显示的数据
+            series:[{
+                name:'确诊患者',
+                type:'line',
+                //data:[qz[na()+'2020-01-27'],qz[na()+'2020-01-28','60','55','10','35']
+                data:[qz[na()+x[0]],qz[na()+x[1]],qz[na()+x[2]],qz[na()+x[3]],qz[na()+x[4]],qz[na()+x[5]],qz[na()+x[6]],qz[na()+x[7]],qz[na()+x[8]],qz[na()+x[9]]]
+            }
+            ]
+        };
+        //使用刚刚指定的配置项和数据项显示图表
+        myChart.setOption(option);
+        var option1={
+            //标题
+            title:{
+                text:na()+'累计确诊趋势'
+            },
+            //工具箱
+            //保存图片
+            toolbox:{
+                show:true,
+                feature:{
+                    saveAsImage:{
+                        show:true
+                    }
+                }
+            },
+            //图例-每一条数据的名字叫销量
+            legend:{
+                data:['确诊患者']
+            },
+            //x轴
+            xAxis:{
+                data:[x[0],x[1],x[2],x[3],x[4],x[5],x[6],x[7],x[8],x[9]]
+            },
+            //y轴没有显式设置，根据值自动生成y轴
+            yAxis:{},
+            //数据-data是最终要显示的数据
+            series:[{
+                name:'确诊患者',
+                type:'line',
+                //data:[qz[na()+'2020-01-27'],qz[na()+'2020-01-28','60','55','10','35']
+                data:[qz[na()+x[0]],qz[na()+x[1]],qz[na()+x[2]],qz[na()+x[3]],qz[na()+x[4]],qz[na()+x[5]],qz[na()+x[6]],qz[na()+x[7]],qz[na()+x[8]],qz[na()+x[9]]]
+            }
+            ]
+        };
+        var option2={
+            //标题
+            title:{
+                text:na()+'治愈/死亡趋势'
+            },
+            //工具箱
+            //保存图片
+            toolbox:{
+                show:true,
+                feature:{
+                    saveAsImage:{
+                        show:true
+                    }
+                }
+            },
+            //图例-每一条数据的名字叫销量
+            legend:{
+                data:['治愈','死亡']
+            },
+            //x轴
+            xAxis:{
+                data:[x[0],x[1],x[2],x[3],x[4],x[5],x[6],x[7],x[8],x[9]]
+            },
+            //y轴没有显式设置，根据值自动生成y轴
+            yAxis:{},
+            //数据-data是最终要显示的数据
+            series:[{
+                name:'治愈',
+                type:'line',
+                //data:[qz[na()+'2020-01-27'],qz[na()+'2020-01-28','60','55','10','35']
+                data:[zy[na()+x[0]],zy[na()+x[1]],zy[na()+x[2]],zy[na()+x[3]],zy[na()+x[4]],zy[na()+x[5]],zy[na()+x[6]],zy[na()+x[7]],zy[na()+x[8]],zy[na()+x[9]]]
+            },
+                {
+                    name:'死亡',
+                    type:'line',
+                    //data:[qz[na()+'2020-01-27'],qz[na()+'2020-01-28','60','55','10','35']
+                    data:[sw[na()+x[0]],sw[na()+x[1]],sw[na()+x[2]],sw[na()+x[3]],sw[na()+x[4]],sw[na()+sw[5]],sw[na()+x[6]],sw[na()+x[7]],sw[na()+x[8]],sw[na()+x[9]]]
+                }
+            ]
+        };
+        function getAdd() {
+            myChart.clear();
+            myChart.setOption(option);
+        }
+        function getAcc() {
+            myChart.clear();
+            myChart.setOption(option1);
+        }
+        function getDc() {
+            myChart.clear();
+            myChart.setOption(option2);
+        }
+    </script>
+</body>
+</html>
