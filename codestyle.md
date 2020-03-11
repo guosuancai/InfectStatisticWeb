@@ -33,4 +33,4 @@
     - 任何运算符左右必须加一个空格
 - **其他规则**
     - 方法参数在定义和传入时，多个参数逗号后边必须加空格
-    - [阿里巴巴代码规范]:https://github.com/chjw8016/alibaba-java-style-guide
+    - [阿里巴巴代码规范](https://github.com/chjw8016/alibaba-java-style-guide)
